@@ -1,0 +1,10 @@
+when used centos7 minimal version,start jupyter notebook will show WARNING
+
+Gtk-WARNING ** cannot open display on CentOS 7 minimal server install
+
+solved method:
+
+#yum insatll xauth
+
+#yum install xorg-x11-fonts-Type1
+
